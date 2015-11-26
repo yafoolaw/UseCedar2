@@ -17,6 +17,7 @@
 		E00AE17B1C058D9D007D5893 /* UseCedar2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E00AE17A1C058D9D007D5893 /* UseCedar2Tests.m */; };
 		E00AE1871C058E7A007D5893 /* NumberSequencer.m in Sources */ = {isa = PBXBuildFile; fileRef = E00AE1861C058E7A007D5893 /* NumberSequencer.m */; };
 		E00AE1891C058E8A007D5893 /* NumberSequencerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E00AE1881C058E8A007D5893 /* NumberSequencerSpec.mm */; };
+		E00AE18B1C069A18007D5893 /* ViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E00AE18A1C069A18007D5893 /* ViewControllerSpec.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E00AE1851C058E7A007D5893 /* NumberSequencer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberSequencer.h; sourceTree = "<group>"; };
 		E00AE1861C058E7A007D5893 /* NumberSequencer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberSequencer.m; sourceTree = "<group>"; };
 		E00AE1881C058E8A007D5893 /* NumberSequencerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NumberSequencerSpec.mm; sourceTree = "<group>"; };
+		E00AE18A1C069A18007D5893 /* ViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewControllerSpec.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			children = (
 				E00AE17A1C058D9D007D5893 /* UseCedar2Tests.m */,
 				E00AE1881C058E8A007D5893 /* NumberSequencerSpec.mm */,
+				E00AE18A1C069A18007D5893 /* ViewControllerSpec.mm */,
 				E00AE17C1C058D9D007D5893 /* Info.plist */,
 			);
 			path = UseCedar2Tests;
@@ -306,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E00AE17B1C058D9D007D5893 /* UseCedar2Tests.m in Sources */,
+				E00AE18B1C069A18007D5893 /* ViewControllerSpec.mm in Sources */,
 				E00AE1891C058E8A007D5893 /* NumberSequencerSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

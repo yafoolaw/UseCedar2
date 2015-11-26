@@ -118,4 +118,9 @@ describe(@"An apple", ^{
     itShouldBehaveLike(@"a red thing");
 });
 
+describe(@"NumberSwquencer", ^{
+    
+    
+});
+
 SPEC_END

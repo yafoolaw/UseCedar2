@@ -8,20 +8,48 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+static NSString * cellIdentifier = @"CellIdentifier";
+
+@interface ViewController () 
+
+@property (nonatomic, strong) UITableView *tableView;
 
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    [self initTableView];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)initTableView {
+
+    self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    [self.view addSubview:self.tableView];
+    
+    self.tableView.dataSource = self;
+    self.tableView.delegate   = self;
+    
+    self.tableView.backgroundColor = [UIColor redColor];
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:cellIdentifier];
+}
+
+#pragma mark - TalbleView
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+
+    return 20;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    
+//    cell.textLabel.text = [NSString stringWithFormat:@"%ld",(long)indexPath.row];
+    
+    return cell;
 }
 
 @end
