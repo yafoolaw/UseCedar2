@@ -2,8 +2,11 @@
 //  UseCedar2Tests.m
 //  UseCedar2Tests
 //
-//  Created by 刘延峰 on 15/11/25.
+//  Created by FrankLiu on 15/11/25.
 //  Copyright © 2015年 刘大帅. All rights reserved.
+//
+//  https://github.com/yafoolaw
+//  http://www.jianshu.com/users/09e77d340dcf/latest_articles
 //
 
 #import <XCTest/XCTest.h>

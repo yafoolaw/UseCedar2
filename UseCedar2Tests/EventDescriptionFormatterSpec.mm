@@ -1,3 +1,14 @@
+//
+//  EventDescriptionFormatterSpec.mm
+//  UseCedar2Tests
+//
+//  Created by FrankLiu on 15/11/25.
+//  Copyright © 2015年 刘大帅. All rights reserved.
+//
+//  https://github.com/yafoolaw
+//  http://www.jianshu.com/users/09e77d340dcf/latest_articles
+//
+
 #import <Cedar/Cedar.h>
 #import "EventDescriptionFormatter.h"
 #import "NSDate+StringFormatter.h"
