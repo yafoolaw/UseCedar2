@@ -11,8 +11,9 @@ SPEC_BEGIN(EventDescriptionFormatterSpec)
 describe(@"EventDescriptionFormatter", ^{
     
     __block EventDescriptionFormatter * desFormatter;
-    __block id<CedarDouble,Event>             fakeEvent;
     __block NSString                  * description;
+    __block id<CedarDouble,Event>       fakeEvent;
+
 
     beforeEach(^{
 
