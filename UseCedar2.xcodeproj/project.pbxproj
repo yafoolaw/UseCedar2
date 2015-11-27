@@ -18,6 +18,9 @@
 		E00AE1871C058E7A007D5893 /* NumberSequencer.m in Sources */ = {isa = PBXBuildFile; fileRef = E00AE1861C058E7A007D5893 /* NumberSequencer.m */; };
 		E00AE1891C058E8A007D5893 /* NumberSequencerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E00AE1881C058E8A007D5893 /* NumberSequencerSpec.mm */; };
 		E00AE18B1C069A18007D5893 /* ViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E00AE18A1C069A18007D5893 /* ViewControllerSpec.mm */; };
+		E0E2ABC71C07E479007BA6F0 /* EventDescriptionFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E2ABC61C07E479007BA6F0 /* EventDescriptionFormatter.m */; };
+		E0E2ABCA1C07EB10007BA6F0 /* EventDescriptionFormatterSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E0E2ABC91C07EB10007BA6F0 /* EventDescriptionFormatterSpec.mm */; };
+		E0E2ABD01C07ECD7007BA6F0 /* NSDate+StringFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E2ABCF1C07ECD7007BA6F0 /* NSDate+StringFormatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		E00AE1861C058E7A007D5893 /* NumberSequencer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberSequencer.m; sourceTree = "<group>"; };
 		E00AE1881C058E8A007D5893 /* NumberSequencerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NumberSequencerSpec.mm; sourceTree = "<group>"; };
 		E00AE18A1C069A18007D5893 /* ViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewControllerSpec.mm; sourceTree = "<group>"; };
+		E0E2ABC51C07E479007BA6F0 /* EventDescriptionFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDescriptionFormatter.h; sourceTree = "<group>"; };
+		E0E2ABC61C07E479007BA6F0 /* EventDescriptionFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDescriptionFormatter.m; sourceTree = "<group>"; };
+		E0E2ABC81C07E4AD007BA6F0 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		E0E2ABC91C07EB10007BA6F0 /* EventDescriptionFormatterSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EventDescriptionFormatterSpec.mm; sourceTree = "<group>"; };
+		E0E2ABCE1C07ECD7007BA6F0 /* NSDate+StringFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+StringFormatter.h"; sourceTree = "<group>"; };
+		E0E2ABCF1C07ECD7007BA6F0 /* NSDate+StringFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+StringFormatter.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +127,11 @@
 				E00AE1671C058D9D007D5893 /* ViewController.m */,
 				E00AE1851C058E7A007D5893 /* NumberSequencer.h */,
 				E00AE1861C058E7A007D5893 /* NumberSequencer.m */,
+				E0E2ABC51C07E479007BA6F0 /* EventDescriptionFormatter.h */,
+				E0E2ABC61C07E479007BA6F0 /* EventDescriptionFormatter.m */,
+				E0E2ABC81C07E4AD007BA6F0 /* Event.h */,
+				E0E2ABCE1C07ECD7007BA6F0 /* NSDate+StringFormatter.h */,
+				E0E2ABCF1C07ECD7007BA6F0 /* NSDate+StringFormatter.m */,
 				E00AE1691C058D9D007D5893 /* Main.storyboard */,
 				E00AE16C1C058D9D007D5893 /* Assets.xcassets */,
 				E00AE16E1C058D9D007D5893 /* LaunchScreen.storyboard */,
@@ -141,6 +155,7 @@
 				E00AE17A1C058D9D007D5893 /* UseCedar2Tests.m */,
 				E00AE1881C058E8A007D5893 /* NumberSequencerSpec.mm */,
 				E00AE18A1C069A18007D5893 /* ViewControllerSpec.mm */,
+				E0E2ABC91C07EB10007BA6F0 /* EventDescriptionFormatterSpec.mm */,
 				E00AE17C1C058D9D007D5893 /* Info.plist */,
 			);
 			path = UseCedar2Tests;
@@ -297,7 +312,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0E2ABC71C07E479007BA6F0 /* EventDescriptionFormatter.m in Sources */,
 				E00AE1871C058E7A007D5893 /* NumberSequencer.m in Sources */,
+				E0E2ABD01C07ECD7007BA6F0 /* NSDate+StringFormatter.m in Sources */,
 				E00AE1681C058D9D007D5893 /* ViewController.m in Sources */,
 				E00AE1651C058D9D007D5893 /* AppDelegate.m in Sources */,
 				E00AE1621C058D9D007D5893 /* main.m in Sources */,
@@ -310,6 +327,7 @@
 			files = (
 				E00AE17B1C058D9D007D5893 /* UseCedar2Tests.m in Sources */,
 				E00AE18B1C069A18007D5893 /* ViewControllerSpec.mm in Sources */,
+				E0E2ABCA1C07EB10007BA6F0 /* EventDescriptionFormatterSpec.mm in Sources */,
 				E00AE1891C058E8A007D5893 /* NumberSequencerSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
