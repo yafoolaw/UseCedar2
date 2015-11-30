@@ -129,9 +129,16 @@ describe(@"An apple", ^{
     itShouldBehaveLike(@"a red thing");
 });
 
-describe(@"NumberSwquencer", ^{
+/* 调用捕获及重置调用 */
+describe(@"NumberSequencer", ^{
+    __block id<CedarDouble> fakeNumberSequencer;
+    
+    beforeEach(^{
+        fakeNumberSequencer = nice_fake_for([NumberSequencer class]);
+    });
     
     
+
 });
 
 SPEC_END
